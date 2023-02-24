@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo Pre-builds'
                 sh 'echo Hello World'
-                sh 'echo I'm Jeremy'
+                sh 'echo Im Jeremy'
             }
         }
         stage('build') {
