@@ -4,8 +4,8 @@ pipeline {
         stage('pre -build') {
             steps {
                 sh 'echo Pre-builds'
-                sh 'Hello World'
-                sh 'I'm Jeremy'
+                sh 'echo Hello World'
+                sh 'echo I'm Jeremy'
             }
         }
         stage('build') {
